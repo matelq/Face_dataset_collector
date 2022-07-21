@@ -34,7 +34,7 @@ def crop_image(inp_dir, out_dir, yt_id, num, bbox, chain, ch_frame_num):
 def video_to_images(yt_id, out_dir, fps):
     try:
         os.makedirs('{0}/{1}'.format(out_dir, yt_id), exist_ok=True)
-        process_call_str = 'ffmpeg -i input.mp4 -vf fps={2} {0}/{1}/%d.jpg'.format(out_dir, yt_id, str(fps))
+        process_call_str = 'ffmpeg -i input.mp4 -vf fps={2} {0}/{1}/%d.png'.format(out_dir, yt_id, str(fps))
         status = subprocess.check_call(process_call_str, shell=True)
 
     except:
