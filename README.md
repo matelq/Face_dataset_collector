@@ -10,7 +10,7 @@
 #### Пример извлечения .gif для одной из цепочек кадров
 ![plot](./imgs/204_219.gif)
 #### Пример детекции нескольких лиц на отдельном кадре
-![plot](./imgs/Pasted image 20240710003739.png)
+![plot](./imgs/Pasted_image_20240710003739.png)
 
 ## Результаты работы программы:
 В результате работы генерируются следующие файлы и папки:
@@ -25,13 +25,13 @@
 - ...
 ### Примеры файлов
 #### urls_from_keys.csv
-![plot](./imgs/Pasted image 20240710003231.png)
+![plot](./imgs/Pasted_image_20240710003231.png)
 
 #### deep_chains.csv:
-![plot](./imgs/Pasted image 20240710003020.png)
+![plot](./imgs/Pasted_image_20240710003020.png)
 
 #### deep_face_box.csv
-![plot](./imgs/Pasted image 20240710003104.png)
+![plot](./imgs/Pasted_image_20240710003104.png)
 
 ### Запуск в окружении Anaconda
 Подключение необходимых библиотек
@@ -42,7 +42,7 @@ $ pip install pytube
 $ pip install mediapipe
 ```
 Заполнить файл key_words.csv ключевыми словами и количеством страниц поиска(!) для каждого из них
-![plot](./imgs/Pasted image 20240710001435.png)
+![plot](./imgs/Pasted_image_20240710001435.png)
 Запустить main.py
 ```
 $ python main.py
