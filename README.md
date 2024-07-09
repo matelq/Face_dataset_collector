@@ -43,6 +43,7 @@ $ pip install mediapipe
 ```
 Заполнить файл key_words.csv ключевыми словами и количеством страниц поиска(!) для каждого из них
 ![plot](./imgs/Pasted_image_20240710001435.png)
+
 Запустить main.py
 ```
 $ python main.py
